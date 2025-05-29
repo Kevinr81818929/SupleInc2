@@ -1,0 +1,171 @@
+body{
+  background-color: #1a1a1a;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1a1a1a;
+}
+
+span{
+  color: #71B52E;
+}
+
+.actions{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  gap: 10px;
+}
+
+.icons {
+  color: #71B52E;
+  display: flex;
+  gap: 15px;  
+}
+.categories{
+  background-color: transparent;
+  color: #71B52E;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer; 
+}
+
+.categories:hoover{
+   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+i{
+  font-size: 20px;
+  height: auto;
+}
+
+.categories button{
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.intro, h1  {
+  text-align: center;
+  color: #71B52E;
+}
+p{
+  color: white;
+}
+.first-figure {
+  background-color: #424040; /*615f5f #2a2a2a*/ 
+  border-radius: 10px;        
+  padding: 1px;              
+  margin: 20px auto;          
+  width: 80%;                 
+  text-align: center;         
+}
+
+.second-figure{
+  background-color: #424040; /*615f5f #2a2a2a*/ 
+  border-radius: 10px;        
+  padding: 1px;              
+  margin: 20px auto;          
+  width: 60%;                 
+  text-align: center;         
+}
+
+.thirth-figure{
+  background-color: black;/*615f5f #2a2a2a*/ 
+  border-radius: 10px;        
+  padding: 1px;              
+  margin: 20px auto;          
+  width: 70%;                 
+  text-align: center;         
+}
+
+.logo img {
+ width: 170px;
+  height: auto;
+}
+
+.search-bar input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  width: 250px;
+}
+
+.combo{
+  background-color: #474747;/*615f5f #2a2a2a*/ 
+  border-radius: 10px;        
+  padding: 1px;              
+  margin: 20px auto;          
+  width: 70%;                 
+  text-align: center;   
+  display: flex;
+}
+
+.text-of-combos{
+  position: relative;
+  background-color: #474747;/*615f5f #2a2a2a*/ 
+  border-radius: 10px;        
+  padding: 1px;              
+  margin: 20px auto;          
+  width: 70%;
+  background: linear-gradient(to right, #a19d9e, #47474e, #727070 );   
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+  text-align: center;              
+}
+.name-combo {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.price-combo {
+  position: absolute;  
+  bottom: 10px;        
+  right: 15px;         
+  font-size: 16px;
+  font-weight: bold;
+  color: white;   
+}
+
+.footer-icons{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer-text{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  flex-direction: column;
+}
+footer{
+  background-color: #424040;/*615f5f #2a2a2a*/ 
+  border-radius: 10px;        
+  padding: 1px;              
+  margin: 20px auto;          
+  width: 20%;                 
+}
+.image-combo{
+  width: 200px;
+  height: auto;
+  margin: auto;
+}
